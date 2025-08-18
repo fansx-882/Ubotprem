@@ -16,17 +16,8 @@ class MSG:
         return f"""
 <blockquote><b>👋🏻 ʜᴀʟᴏ <a href=tg://user?id={message.from_user.id}>{message.from_user.first_name} {message.from_user.last_name or ''}</a>!
 
-<b> 📚💎@{bot.me.username} ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴜᴀᴛ ᴜsᴇʀʙᴏᴛ ᴅᴇɴɢᴀɴ ᴍᴜᴅᴀʜ</b>
-
-🚀ʙᴏᴛ ɪɴɪ ᴅɪᴋᴇᴍʙᴀɴɢᴋᴀɴ ᴏʟᴇʜ <a href=tg://openmessage?user_id={OWNER_ID}>@xyoufvck</a> ᴊɪᴋᴀ ᴀᴅᴀ ᴋᴇsᴀʟᴀʜᴀɴ ᴀᴛᴀᴜᴘᴜɴ ᴍᴀsᴀʟᴀʜ ᴅᴍ ᴏᴡɴᴇʀ ʙᴏᴛ 𝙳𝙸 𝙰𝚃𝙰𝚂 
-
-ᴘᴜʙʟɪᴄ ғɪᴛᴜʀ:
-/freekingprem
-
-𝙲𝙰𝚁𝙰 𝚂𝙴𝚆𝙰 ᴋɪɴɢᴘʀᴇᴍ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃:
-(ᴜꜱᴇʀʙᴏᴛ ɪɴɪ ᴀᴋᴀɴ ʙᴇʀᴋᴇᴍʙᴀɴɢ!! ᴊɪᴋᴀ ɪɴɢɪɴ ᴍᴇᴍʙᴇʟɪ ᴜꜱᴇʀʙᴏᴛ ᴀᴛᴀᴜ ʀᴇꜱᴇʟʟᴇʀ ʙɪꜱᴀ ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴜᴛᴀᴍᴀ ᴋᴀʀɴᴀ ᴜꜱᴇʀʙᴏᴛ ɪɴɪ ʙᴇʟᴜᴍ ꜱᴜᴘᴘᴏʀᴛ ᴛʀᴀɴꜱᴀᴋꜱɪ ᴏᴛᴏᴍᴀᴛɪꜱ!!!, ᴊɪᴋᴀ ᴀᴅᴀ ᴋᴇɴᴅᴀʟᴀ ꜰɪᴛᴜʀ ᴇʀᴏʀ ʙɪꜱᴀ ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴜᴛᴀᴍᴀ ᴀɢᴀʀ ᴅɪ ᴘᴇʀʙᴀɪᴋɪ)
-
-ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴜᴀᴛ ᴜsᴇʀʙᴏᴛ</b></blockquote>
+<b> 📚💎@{bot.me.username} Adalah bot yang dapat membuat userbot dengan mudah.🚀 Bot ini dikembangkan oleh <a href=tg://openmessage?user_id={OWNER_ID}>@Alwaysfscx</a> jika ada problem silakan dm owner bot nya ya.
+</b></blockquote>
 """
 
     def TEXT_PAYMENT(harga, total, bulan):
@@ -40,18 +31,18 @@ class MSG:
 <b>🔖 ᴛᴏᴛᴀʟ ʜᴀʀɢᴀ: ʀᴘ {total}.000</b>
 <b>🗓️ ᴛᴏᴛᴀʟ ʙᴜʟᴀɴ: {bulan}</b> 
 
-OWNER BOT : <a href=tg://openmessage?user_id={OWNER_ID}>@xyoufvck</a> 
+OWNER BOT : <a href=tg://openmessage?user_id={OWNER_ID}>@Alwaysfscx</a> 
 
 <b>🛍 ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴋᴏɴꜰɪʀᴍᴀsɪ ᴜɴᴛᴜᴋ ᴋɪʀɪᴍ ʙᴜᴋᴛɪ ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴀɴᴅᴀ</b></blockquote>
 """
 
     async def UBOT(count):
         return f"""
-<blockquote><b>╭〢 ᴛʜʀᴇᴇʙᴏᴛ ᴋᴇ </b> <code>{int(count) + 1}/{len(ubot._ubot)}</code>
+<blockquote><b>╭〢 ᴜsᴇʀʙᴏᴛ-ᴘʀᴇᴍ ᴋᴇ </b> <code>{int(count) + 1}/{len(ubot._ubot)}</code>
 <b> ├〢 ᴀᴄᴄᴏᴜɴᴛ </b> <a href=tg://user?id={ubot._ubot[int(count)].me.id}>{ubot._ubot[int(count)].me.first_name} {ubot._ubot[int(count)].me.last_name or ''}</a> 
 <b> ╰〢ᴜsᴇʀ ɪᴅ </b> <code>{ubot._ubot[int(count)].me.id}</code></blockquote>
 """
 
     def POLICY():
-        return """ <blockquote><b>ᴊɪᴋᴀ ᴀᴅᴀ ᴋᴇɴᴅᴀʟᴀ sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ  <a href=tg://openmessage?user_id={OWNER_ID}>@xyoufvck</a></b></blockquote>
+        return """ <blockquote><b>ᴊɪᴋᴀ ᴀᴅᴀ ᴋᴇɴᴅᴀʟᴀ sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ  <a href=tg://openmessage?user_id={OWNER_ID}>@Alwaysfscx</a></b></blockquote>
 """
