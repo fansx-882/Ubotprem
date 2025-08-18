@@ -67,7 +67,7 @@ class Ubot(Client):
     _get_my_peer = {}
 
     def __init__(self, **kwargs):
-        super().__init__(**kwargs, device_model="ᴋɪɴɢᴘʀɪᴀɪɴᴅɪᴀ")
+        super().__init__(**kwargs, device_model="ғᴀɴsxʙᴏᴛ")
         self.call_py = PyTgCalls(self)
 
     def on_message(self, filters=None, group=-1):
