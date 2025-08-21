@@ -6,7 +6,7 @@ __MODULE__ = "ʙᴜᴛᴛᴏɴ"
 __HELP__ = """
 <b>⦪ ʙᴜᴛᴛᴏɴ ⦫</b>
 
-<blockquote><b>⎆  ᴘᴇʀɪɴᴛᴀʜ:
+<blockquote><b> Perintah :
 ᚗ <code>{0}button</code> ᴛᴇxᴛ -/ ʙᴜᴛᴛᴏɴ_ᴛᴇxᴛ:ʙᴜᴛᴛᴏɴ_ʟɪɴᴋ
 ᚗ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴜᴀᴛ ᴛᴏᴍʙᴏʟ ɪɴʟɪɴᴇ
 
