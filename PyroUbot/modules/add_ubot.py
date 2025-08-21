@@ -164,7 +164,7 @@ async def _(client, callback_query):
 
     • <code>ᴘʜᴏɴᴇ_ɴᴜᴍʙᴇʀ</code>: ɴᴏᴍᴇʀ ʜᴘ ᴀᴋᴜɴ ᴛᴇʟᴇɢʀᴀᴍ
 
-☑️ ᴊɪᴋᴀ sᴜᴅᴀʜ ᴛᴇʀsᴇᴅɪᴀ sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ᴛᴏᴍʙᴏɪ ᴅɪʙᴀᴡᴀʜ</b></blockquote>
+✅ᴊɪᴋᴀ sᴜᴅᴀʜ ᴛᴇʀsᴇᴅɪᴀ sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ᴛᴏᴍʙᴏɪ ᴅɪʙᴀᴡᴀʜ</b></blockquote>
 """,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -309,11 +309,11 @@ async def _(client, callback_query):
             [InlineKeyboardButton("ᴋᴇᴍʙᴀʟɪ", callback_data=f"home {user_id}")],
         ]
     text_done = f"""
-<blockquote><b>ʙᴇʀʜᴀꜱɪʟ ᴅɪᴀᴋᴛɪꜰᴋᴀɴ
-ɴᴀᴍᴇ : <a href=tg://user?id={new_client.me.id}>{new_client.me.first_name} {new_client.me.last_name or ''}</a>
-ɪᴅ : {new_client.me.id}
-ᴘʀᴇꜰɪxᴇꜱ : {' '.join(SH)}
-ʜᴀʀᴀᴘ ᴊᴏɪɴ : @ucelbots ʜᴀʀᴀᴘ ᴊᴏɪɴ ʀᴏᴏᴍ ᴅɪᴀᴛᴀs ᴅᴀɴ ᴊᴀɴɢᴀɴ ᴏᴜᴛ ᴀɢᴀʀ sᴀғᴇᴛʏ
+<blockquote><b>Userbot Berhasil Diaktifkan
+NAME : <a href=tg://user?id={new_client.me.id}>{new_client.me.first_name} {new_client.me.last_name or ''}</a>
+ID USER : {new_client.me.id}
+PREFIXS : {' '.join(SH)}
+HARAP JOIN : ʜᴀʀᴀᴘ ᴊᴏɪɴ ʀᴏᴏᴍ ᴅɪᴀᴛᴀs & ᴊᴀɴɢᴀɴ ᴏᴜᴛ ᴀɢᴀʀ sᴀғᴇᴛʏ
 ᴊɪᴋᴀ ʙᴏᴛ ᴛɪᴅᴀᴋ ʀᴇꜱᴘᴏɴ, ᴋᴇᴛɪᴋ /restart</b></blockquote>
         """
     await bot_msg.edit(text_done, disable_web_page_preview=True,
@@ -321,9 +321,9 @@ async def _(client, callback_query):
     await bash("rm -rf *session*")
     await install_my_peer(new_client)
     try:
-        await new_client.join_chat("rompublickfans")
-        await new_client.join_chat("Testifanscx")
-        await new_client.join_chat("fanstoreIdy")
+        await new_client.join_chat("publickfans")
+        await new_client.join_chat("testimonifans")
+        await new_client.join_chat("fanstoreld")
     except UserAlreadyParticipant:
         pass
 
