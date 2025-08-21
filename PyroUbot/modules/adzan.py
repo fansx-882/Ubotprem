@@ -6,10 +6,10 @@ from PyroUbot import *
 
 __MODULE__ = "ᴀᴅᴢᴀɴ"
 __HELP__ = f"""
-<blockquote><b>『 bantuan untuk ᴀᴅᴢᴀɴ 』</b>
+<blockquote><b>bantuan untuk ᴀᴅᴢᴀɴ</b>
 
-  <b>• perintah:</b> <code>.adzan</code> [nama kota]
-  <b>• penjelasan:</b> Untuk mengetahui waktu adzan.</blockquote>
+<b>• perintah:</b> <code>.adzan</code> [nama kota]
+<b>• penjelasan:</b> Untuk mengetahui waktu adzan.</blockquote>
 """
 
 @PY.UBOT("adzan")
