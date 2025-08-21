@@ -153,10 +153,15 @@ async def gcast_handler(client, message):
     _gcs = f"""
 <blockquote>{robot} <b>Youre Broadcast Result</b>{terompet}
   {centang} <b>Success: {done}</b>
+  
   {silang} <b>Failed: {failed}</b>
+  
   {robot} <b>Task ID: {message.id}</b>
+  
   {pesan} <b>Type: {command}</b>
+  
   {jam} <b>Blacklist: {len(blacklist)}</b>
+  
 <b>My Bot: @{client.me.username}</b></blockquote>
 
 """
@@ -240,7 +245,7 @@ async def _(client, message):
 @PY.BOT("bcast")
 @PY.ADMIN
 async def _(client, message):
-    msg = await message.reply("<blockquote><b>okee proses Boy...</blockquote></b>\n\n<blockquote><b>mohon bersabar untuk menunggu proses broadcast sampai selesai</blockquote></b>", quote=True)
+    msg = await message.reply("<blockquote><b>prosessing...</blockquote></b>\n\n<blockquote><b>mohon bersabar untuk menunggu proses broadcast sampai selesai</blockquote></b>", quote=True)
 
     send = get_message(message)
     if not send:
@@ -265,7 +270,7 @@ async def _(client, message):
         except Exception:
             pass
 
-    return await msg.edit(f"<blockquote><b>Pesan broadcast berhasil terkirim ke {done} user</blockquote></b>\n\n<blockquote><b>`USERBOT 10K/BULAN BY` @Priaindiareal</b></blockquote>")
+    return await msg.edit(f"<blockquote><b>Pesan broadcast berhasil terkirim ke {done} user</blockquote></b>\n\n<blockquote><b>`USERBOT 5K/BULAN BY` @Userbotfansx_bot</b></blockquote>")
 
 
 @PY.UBOT("addbl")
@@ -284,12 +289,12 @@ async def _(client, message):
         if chat_id in blacklist:
             txt = f"""
 <blockquote><b>{grp} ɢʀᴏᴜᴘ: {message.chat.title}</blockquote></b>
-<blockquote><b>{ktrn} ᴋᴇᴛ: sᴜᴅᴀʜ ᴀᴅᴀ ᴅᴀʟᴀᴍ ʟɪsᴛ ᴊᴇᴍʙᴏᴛ</blockquote></b>
+<blockquote><b>{ktrn} ᴋᴇᴛ: sᴜᴅᴀʜ ᴀᴅᴀ ᴅᴀʟᴀᴍ ᴅᴀᴛᴀʙᴀsᴇ...</blockquote></b>
 """
         else:
             await add_to_vars(client.me.id, "BL_ID", chat_id)
             txt = f"""
-<blockquote><b>{grp} ɢʀᴏᴜᴘ: {message.chat.title}</blockquote></b>\n<blockquote><b>{ktrn} ᴋᴇᴛ: ʙᴇʀʜᴀsɪʟ ᴅɪ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ᴅᴀʟᴀᴍ ʟɪsᴛ ᴊᴇᴍʙᴏᴛ</blockquote></b>
+<blockquote><b>{grp} ɢʀᴏᴜᴘ: {message.chat.title}</blockquote></b>\n<blockquote><b>{ktrn} ᴋᴇᴛ: ʙᴇʀʜᴀsɪʟ ᴅɪ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ᴅᴀʟᴀᴍ ᴅᴀᴛᴀʙᴀsᴇ...</blockquote></b>
 """
 
         return await msg.edit(txt)
@@ -313,13 +318,13 @@ async def _(client, message):
         if chat_id not in blacklist:
             response = f"""
 <blockquote><b>{grp} ɢʀᴏᴜᴘ: {message.chat.title}</blockquote></b>
-<blockquote><b>{ktrn} ᴋᴇᴛ: ᴛɪᴅᴀᴋ ᴀᴅᴀ ᴅᴀʟᴀᴍ ʟɪsᴛ ᴊᴇᴍʙᴏᴛ</b></blockquote>
+<blockquote><b>{ktrn} ᴋᴇᴛ: ᴛɪᴅᴀᴋ ᴀᴅᴀ ᴅɪ ᴅᴀʟᴀᴍ ᴅᴀᴛᴀʙᴀsᴇ...</b></blockquote>
 """
         else:
             await remove_from_vars(client.me.id, "BL_ID", chat_id)
             response = f"""
 <blockquote><b>{grp} ɢʀᴏᴜᴘ: {message.chat.title}</blockquote ></b>
-<blockquote><b>{ktrn} ᴋᴇᴛ: ʙᴇʀʜᴀsɪʟ ᴅɪ ʜᴀᴘᴜs ᴋᴇ ᴅᴀʟᴀᴍ ʟɪsᴛ ᴊᴇᴍʙᴏᴛ</blockquote></b>
+<blockquote><b>{ktrn} ᴋᴇᴛ: ʙᴇʀʜᴀsɪʟ ᴅɪ ʜᴀᴘᴜs ᴅᴀʀɪ ᴅᴀʟᴀᴍ ᴅᴀᴛᴀʙᴀsᴇ...</blockquote></b>
 """
 
         return await msg.edit(response)
