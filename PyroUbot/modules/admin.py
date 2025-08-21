@@ -16,19 +16,18 @@ __MODULE__ = "ᴀᴅᴍɪɴ"
 __HELP__ = """
 <blockquote><b>Bantuan Untuk Admin
 
-perintah : <code>{0}kick</code> |<code>{0}ban</code> |<code>{0}mute</code> |<code>{0}etmin</code> |<code>{0}ceo</code> |<code>{0}demote</code>
-    <code>{0}unmute</code> |<code>{0}unban</code>
+Perintah : <code>{0}kick</code> |<code>{0}ban</code> |<code>{0}mute</code> |<code>{0}etmin</code> |<code>{0}ceo</code> |<code>{0}demote</code><code>{0}unmute</code> |<code>{0}unban</code>
 
-perintah : <code>{0}zombies</code> [in group]
-    mengeluarkan akun terhapus dari group
+Perintah : <code>{0}zombies</code> [in group]
+kick akun terhapus dari group
 
-perintah : <code>{0}lock</code> | <code>{0}unlock</code> | <code>{0}locks</code>
-    mengunci/membuka dan list izin group
+Perintah : <code>{0}lock</code> | <code>{0}unlock</code> | <code>{0}locks</code>
+mengunci/membuka & list izin group
 
-example:
-    |<code>{0}lock msg</code> |<code>{0}lock media</code> |<code>{0}lock pin</code>
-    |<code>{0}lock polls</code> |<code>{0}lock info</code> |<code>{0}lock invite</code>
-    |<code>{0}lock webprev</code> |<code>{0}lock stickers</code></b></blockquote>
+Example:
+|<code>{0}lock msg</code> |<code>{0}lock media</code> |<code>{0}lock pin</code>
+|<code>{0}lock polls</code> |<code>{0}lock info</code> |<code>{0}lock invite</code>
+|<code>{0}lock webprev</code> |<code>{0}lock stickers</code></b></blockquote>
 """
 
 
@@ -200,7 +199,7 @@ async def _(client, message):
 <b>{tion}ᴀᴅᴍɪɴ: {message.from_user.mention}</b>
 <b>{ktrng}ᴀʟᴀꜱᴀɴ: {reason}</b></blockquote>
 
-<blockquote><b>USERBOT 10K/BULAN BY @Userbotbyfansx_bot</b></blockquote>
+<blockquote><b>USERBOT 5K/BULAN BY @Userbotfansx_bot</b></blockquote>
             """
         try:
             await message.chat.ban_member(user_id)
@@ -228,7 +227,7 @@ async def _(client, message):
 <b>{tion}ᴀᴅᴍɪɴ: {message.from_user.mention}</b>
 <b>{ktrng}ᴀʟᴀꜱᴀɴ: {reason}</b></blockquote>
 
-<blockquote><b>USERBOT 10K/BULAN BY @Userbotbyfansx_bot</b></blockquote>
+<blockquote><b>USERBOT 5K/BULAN BY @Userbotfansx_bot</b></blockquote>
             """
         try:
             await message.chat.ban_member(user_id)
@@ -254,7 +253,7 @@ async def _(client, message):
 <b>{tion}ᴀᴅᴍɪɴ: {message.from_user.mention}</b>
 <b>{ktrng}ᴀʟᴀꜱᴀɴ: {reason}</blockquote></b>\n<blockquote><b>ᴋᴇᴛ: ᴍᴀᴍᴘᴜs ᴅɪ ᴍᴜᴛᴇ ᴇᴛᴍɪɴ</blockquote></b>
 
-<blockquote><b>USERBOT 10K/BULAN BY @Userbotbyfansx_bot</b></blockquote>
+<blockquote><b>USERBOT 5K/BULAN BY @Userbotfansx_bot</b></blockquote>
             """
         try:
             await message.chat.restrict_member(user_id, ChatPermissions())
