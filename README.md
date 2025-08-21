@@ -12,7 +12,7 @@ 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
 cd Ubotprem && screen -S Ubotprem
 ```
 ```
-bash installnode.sh && apt install python3.10-venv
+bash installnode.sh && apt install python3-venv
 ```
 ```
 python3 -m venv Ubotprem && source Ubotprem/bin/activate
