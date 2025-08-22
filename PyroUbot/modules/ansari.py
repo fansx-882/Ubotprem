@@ -7,10 +7,10 @@ from pyrogram.types import Message
 
 __MODULE__ = "ᴀɴsᴀʀɪ ɪsʟᴀᴍɪᴄ"
 __HELP__ = """
-<blockquote><b>Bantuan Untuk Ansari Islamic
+<blockquote><b>⦪ Bantuan Untuk Ansari Islamic ⦫
 
 perintah : <code>{0}ansari</code>
-    untuk bertanya tentang ayat alquran atau tentang pertanyaan islam lainya</b></blockquote>
+Ket : untuk bertanya tentang ayat alquran atau tentang pertanyaan islam lainya</b></blockquote>
 """
 
 @PY.UBOT("ansari")
