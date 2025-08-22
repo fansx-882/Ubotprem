@@ -102,7 +102,7 @@ class BTN:
 
     def ALWAYSBOYSZ(message):
         button = [
-            [InlineKeyboardButton("room public", url="https://t.me/publickfans")],
+            [InlineKeyboardButton("room public", url="https://t.me/rompublickfans")],
         ]
         return button
 
