@@ -10,24 +10,25 @@ __MODULE__ = "ᴀɴɪᴍᴇ 2"
 __HELP__ = """
 <b>⦪ ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴀɴɪᴍᴇ 2 ⦫</b>
 <blockquote>
-⎆ perintah :
-ᚗ <code>{0}anime</code> Query
-⊶ buat pertanyaan contoh <code>{0}ask</code> dimana letak Antartika
+
+<b>Perintah :</b><code>{0}anime</code> Query
+
+Buat pertanyaan contoh:\n<code>{0}ask</code> dimana letak Antartika
 
 <b>ᚗ Query:</b>
-    <i>⊶ keneki</i>,
-    <i>⊶ megumin/i>,
-    <i>⊶ yotsuba</i>,
-    <i>⊶ shinomiya</i>,
-    <i>⊶ yumeko</i>,
-    <i>⊶ tsunade</i>,
-    <i>⊶ kagura</i>,
-    <i>⊶ madara</i>,
-    <i>⊶ itachi</i>,
-    <i>⊶ akira</i>,
-    <i>⊶ toukachan</i>,
-    <i>⊶ cicho</i>,
-    <i>⊶ sasuke</i></blockquote>
+    <i> • keneki</i>,
+    <i> • megumin/i>,
+    <i> • yotsuba</i>,
+    <i> • shinomiya</i>,
+    <i> • yumeko</i>,
+    <i> • tsunade</i>,
+    <i> • kagura</i>,
+    <i> • madara</i>,
+    <i> • itachi</i>,
+    <i> • akira</i>,
+    <i> • toukachan</i>,
+    <i> • cicho</i>,
+    <i> • sasuke</i></blockquote>
 """
 
 URLS = {
