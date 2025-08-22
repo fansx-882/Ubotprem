@@ -8,11 +8,12 @@ from io import BytesIO
 
 __MODULE__ = "ᴀɴɪᴍᴇ"
 __HELP__ = """
-<blockquote><b>『 ʙᴀɴᴛᴜᴀɴ ᴀɴɪᴍᴇ 』</b>
+<blockquote><b> ⦪ ʙᴀɴᴛᴜᴀɴ ᴀɴɪᴍᴇ ⦫</b>
 
-<b>⌲ ᴘᴇʀɪɴᴛᴀʜ:</b> <code>{0}anime [query]</code>
 
-<b>Query:</b> <b>keneki</b>,
+<b>Perintah :</b> <code>{0}anime [query]</code>
+
+<b>Query:</b> <code>keneki</code>,
     <b>megumin/b>,
     <b>yotsuba</b>,
     <b>shinomiya</b>,
