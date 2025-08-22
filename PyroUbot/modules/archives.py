@@ -4,12 +4,11 @@ __MODULE__ = "ᴀʀᴄʜɪᴠᴇ"
 __HELP__ = """
 <b>⦪ ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴀʀᴄʜɪᴠᴇ ⦫<b>
 
-<blockquote><b>⎆ perintah :
-ᚗ <code>{0}arch</code>
-⊷ mengarchivekan group chat pribadi maupun channel
+<blockquote><b>perintah : <code>{0}arch</code>
+Ket : mengarchivekan group chat pribadi maupun channel
 
-ᚗ <code>{0}unarch</code>
-⊷ mengunarchivekan group chat pribadi maupun channel</b></blockquote>
+Perintah : <code>{0}unarch</code>
+Ket : mengunarchivekan group chat pribadi maupun channel</b></blockquote>
 """
 @PY.UBOT("arch")
 @PY.TOP_CMD
