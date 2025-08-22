@@ -4,10 +4,10 @@ from PyroUbot import *
 
 __MODULE__ = "ᴀʀᴛɪ ɴᴀᴍᴀ"
 __HELP__ = """
-<blockquote><b>Bantuan Untuk Arti Nama</b>
+<blockquote><b>⦪ Bantuan Untuk Arti Nama ⦫</b>
 
-Perintah:
-<code>{0}artinama [nama]</code> → Mengartikan dengan nama</blockquote></b>
+Perintah : <code>{0}artinama [nama]</code>
+Ket : Mengartikan dengan nama</blockquote></b>
 """
 
 @PY.UBOT("artinama")
