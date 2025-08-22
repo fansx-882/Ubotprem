@@ -7,9 +7,9 @@ from pyrogram.types import Message
 
 __MODULE__ = "ᴀɪ"
 __HELP__ = """
-<blockquote><b>Bantuan Untuk AI
+<blockquote><b>⦪ Bantuan Untuk AI ⦫
 
-perintah : <code>{0}ai</code>
+Perintah : <code>{0}ai</code>
 buat pertanyaan contoh <code>{0}ai</code> halo</b></blockquote>
 """
 
