@@ -16,7 +16,7 @@ class MSG:
         return f"""
 <blockquote><b>👋🏻 ʜᴀʟᴏ <a href=tg://user?id={message.from_user.id}>{message.from_user.first_name} {message.from_user.last_name or ''}</a>!
 
-<b> 📚💎@{bot.me.username} Adalah bot yang dapat membuat userbot dengan mudah. Bot ini dikembangkan oleh @Alwaysfscx. Jika ada kendala atau problem silakan hubungi owner bot nya.</b></blockquote>
+<b> 📚💎@{bot.me.username} Adalah bot yang dapat membuat userbot dengan mudah. Bot ini dikembangkan oleh @Alwaysfscx. Jika ada kendala atau problem silakan hubungi owner bot.</b></blockquote>
 """
 
     def TEXT_PAYMENT(harga, total, bulan):
@@ -30,7 +30,7 @@ class MSG:
 <b>🔖 ᴛᴏᴛᴀʟ ʜᴀʀɢᴀ: ʀᴘ {total}.000</b>
 <b>🗓️ ᴛᴏᴛᴀʟ ʙᴜʟᴀɴ: {bulan}</b> 
 
-OWNER BOT : <a href=tg://openmessage?user_id={OWNER_ID}>@Alwaysfscx</a> 
+OWNER BOT : <a href=tg://openmessage?user_id={OWNER_ID}>@Awlysxxx</a> 
 
 <b>🛍 ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴋᴏɴꜰɪʀᴍᴀsɪ ᴜɴᴛᴜᴋ ᴋɪʀɪᴍ ʙᴜᴋᴛɪ ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴀɴᴅᴀ</b></blockquote>
 """
