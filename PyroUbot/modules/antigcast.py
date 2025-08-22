@@ -13,39 +13,39 @@ __HELP__ = """
 
 <b>⦪ ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴀɴᴛɪɢᴄᴀsᴛ ⦫</b>
 <blockquote><b>
-⎆ ᴘᴇʀɪɴᴛᴀʜ :
-ᚗ <code>{0}on</code> [on atau off] 
-⊷ ᴜɴᴛᴜᴋ ᴍᴇɴɢʜɪᴅᴜᴘᴋᴀɴ ᴀᴛᴀᴜ ᴍᴇᴍᴀᴛɪᴋᴀɴ ᴀɴᴛɪɢᴄᴀꜱᴛ
 
-ᚗ <code>{0}listduar</code> 
-⊷ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴅᴀꜰᴛᴀʀ ᴘᴇɴɢɢᴜɴᴀ ʏᴀɴɢ ᴅɪ ʙᴀʟᴄᴋʟɪꜱᴛ
+Perintah : <code>{0}on</code> [on/off] 
+Ket : menghidupkam/mematikan antigcast
 
-ᚗ <code>{0}duar</code> 
-⊷ ᴜɴᴛᴜᴋ ᴍᴇɴᴀᴍʙᴀʜ ᴘᴇɴɢɢᴜɴᴀ ᴋᴇ ᴅᴀʟᴀᴍ ᴅᴀᴛᴀʙᴀꜱᴇ ᴀɴᴛɪɢᴄᴀꜱᴛ
+Perintah : <code>{0}listduar</code> 
+Ket : Untuk melihat daftar user yang di blacklist
 
-ᚗ <code>{0}unduar</code> 
-⊷ ᴜɴᴛᴜᴋ ᴍᴇɴɢʜᴀᴘᴜꜱ ᴘᴇɴɢɢᴜɴᴀ ᴅɪ ᴅᴀʟᴀᴍ ᴅᴀᴛᴀʙᴀꜱᴇ ᴀɴᴛɪɢᴄᴀꜱᴛ
+Perintah : <code>{0}duar</code> 
+Ket : untuk menambah user ke dalam database antigcast
 
-ᚗ <code>{0}liat</code> 
-⊷ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴀᴘᴀᴋᴀʜ ᴀɴᴛɪɢᴄᴀꜱᴛ ᴛᴇʟᴀʜ ᴅɪ ᴀᴋᴛɪꜰᴋᴀɴ
+Perintah : <code>{0}unduar</code> 
+Ket : untuk menghapus user di dalam database antigcast
 
-ᚗ <code>{0}addgc</code> 
-⊷ ᴜɴᴛᴜᴋ ᴍᴇɴᴀᴍʙᴀʜ ɢʀᴜᴘ ꜱᴇʙᴀɢᴀɪ ᴀɴᴛɪɢᴄᴀꜱᴛ
+Perintah : <code>{0}liat</code> 
+Ket : untuk melihat apakah antigcas telah di aktifkan atau belum
 
-ᚗ <code>{0}rmgc</code> 
-⊷ ᴜɴᴛᴜᴋ ᴍᴇɴɢʜᴀᴘᴜꜱ ɢʀᴜᴘ ꜱᴇʙᴀɢᴀɪ ᴀɴᴛɪɢᴄᴀꜱᴛ
+Perintah : <code>{0}addgc</code> 
+Ket : untuk menambah group sebagai antigcast
 
-ᚗ <code>{0}listgc</code> 
-⊷ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ɢʀᴜᴘ ᴀɴᴛɪɢᴄᴀꜱᴛ</b></i>
+Perintah : <code>{0}rmgc</code> 
+Ket : untuk menghapus group dari antigcast
 
-ᚗ <code>{0}b</code> balas ke pesan 
-⊷ ᴜɴᴛᴜᴋ ᴍᴇɴᴀᴍʙᴀʜ ᴘᴇꜱᴀɴ ᴀɴᴛɪɢᴄᴀꜱᴛ
+Perintah : <code>{0}listgc</code> 
+Ket : ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ɢʀᴜᴘ ᴀɴᴛɪɢᴄᴀꜱᴛ</b></i>
 
-ᚗ <code>{0}cekbl</code> 
-⊷ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴄᴇᴋ ᴅᴀꜰᴛᴀʀ ᴋᴀᴛᴀ ʏɢ ᴅɪ ʙʟᴀᴄᴋʟɪꜱᴛ
+Perintah : <code>{0}b</code>
+Ket : ᴜɴᴛᴜᴋ ᴍᴇɴᴀᴍʙᴀʜ ᴘᴇꜱᴀɴ ᴀɴᴛɪɢᴄᴀꜱᴛ
 
-ᚗ <code>{0}rmb</code> 
-⊷ ᴜɴᴛᴜᴋ ᴍᴇɴɢʜᴀᴘᴜꜱ ᴋᴀᴛᴀ ʏᴀɴɢ ᴅɪ ʙʟᴀᴄᴋʟɪꜱᴛ
+Perintah : <code>{0}cekbl</code> 
+Ket : ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴄᴇᴋ ᴅᴀꜰᴛᴀʀ ᴋᴀᴛᴀ ʏɢ ᴅɪ ʙʟᴀᴄᴋʟɪꜱᴛ
+
+Perintah : <code>{0}rmb</code> 
+Ket : ᴜɴᴛᴜᴋ ᴍᴇɴɢʜᴀᴘᴜꜱ ᴋᴀᴛᴀ ʏᴀɴɢ ᴅɪ ʙʟᴀᴄᴋʟɪꜱᴛ
 </b></blockquote>
 
 """
