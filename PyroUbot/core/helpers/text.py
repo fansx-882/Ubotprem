@@ -16,8 +16,7 @@ class MSG:
         return f"""
 <blockquote><b>👋🏻 ʜᴀʟᴏ <a href=tg://user?id={message.from_user.id}>{message.from_user.first_name} {message.from_user.last_name or ''}</a>!
 
-<b>📚💎@{bot.me.username} Adalah bot yang dapat membuat userbot dengan mudah.🚀 Bot ini dikembangkan oleh <a href=tg://openmessage?user_id={OWNER_ID}>@Awlysxxx</a> jika ada problem silakan dm owner bot nya.
-</b></blockquote>
+<b> 📚💎@{bot.me.username} Adalah bot yang dapat membuat userbot dengan mudah. Bot ini dikembangkan oleh @Alwaysfscx. Jika ada kendala atau problem silakan hubungi owner bot nya.</b></blockquote>
 """
 
     def TEXT_PAYMENT(harga, total, bulan):
@@ -31,16 +30,16 @@ class MSG:
 <b>🔖 ᴛᴏᴛᴀʟ ʜᴀʀɢᴀ: ʀᴘ {total}.000</b>
 <b>🗓️ ᴛᴏᴛᴀʟ ʙᴜʟᴀɴ: {bulan}</b> 
 
-OWNER BOT : <a href=tg://openmessage?user_id={OWNER_ID}>@Awlysxxx</a> 
+OWNER BOT : <a href=tg://openmessage?user_id={OWNER_ID}>@Alwaysfscx</a> 
 
 <b>🛍 ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴋᴏɴꜰɪʀᴍᴀsɪ ᴜɴᴛᴜᴋ ᴋɪʀɪᴍ ʙᴜᴋᴛɪ ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴀɴᴅᴀ</b></blockquote>
 """
 
     async def UBOT(count):
         return f"""
-<blockquote><b>╭〢ғᴀɴs_ᴜsᴇʀʙᴏᴛ ᴋᴇ </b> <code>{int(count) + 1}/{len(ubot._ubot)}</code>
-<b> ├〢 ᴀᴄᴄᴏᴜɴᴛ </b> <a href=tg://user?id={ubot._ubot[int(count)].me.id}>{ubot._ubot[int(count)].me.first_name} {ubot._ubot[int(count)].me.last_name or ''}</a> 
-<b> ╰〢ᴜsᴇʀ ɪᴅ </b> <code>{ubot._ubot[int(count)].me.id}</code></blockquote>
+<blockquote><b>╭〢 ᴜsᴇʀʙᴏᴛ-ᴘʀᴇᴍ ᴋᴇ </b> <code>{int(count) + 1}/{len(ubot._ubot)}</code>
+<b>├〢 ᴀᴄᴄᴏᴜɴᴛ </b> <a href=tg://user?id={ubot._ubot[int(count)].me.id}>{ubot._ubot[int(count)].me.first_name} {ubot._ubot[int(count)].me.last_name or ''}</a> 
+<b>╰〢ᴜsᴇʀ ɪᴅ </b> <code>{ubot._ubot[int(count)].me.id}</code></blockquote>
 """
 
     def POLICY():
