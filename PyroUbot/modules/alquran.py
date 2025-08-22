@@ -33,13 +33,13 @@ async def alquran(surah, ayat):
 
 __MODULE__ = "ᴀʙꜱᴇɴ"
 __HELP__ = """
-<blockquote><b>Bantuan Untuk Absen
+<blockquote><b>⦪ Bantuan Untuk Absen ⦫
 
-perintah : <code>{0}absen</code>
-    untuk membuat liꜱt abꜱen kamu
+Perintah : <code>{0}absen</code>
+Ket : untuk membuat liꜱt abꜱen kamu
 
 perintah : <code>{0}delabsen</code>
-    untuk menghapuꜱ liꜱt abꜱen kamu</b></blockquote>
+Ket : untuk menghapuꜱ liꜱt abꜱen kamu</b></blockquote>
 """
 
 @PY.UBOT("alquran")
