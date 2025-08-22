@@ -4,16 +4,16 @@ from PyroUbot import *
 
 __MODULE__ = "ᴀꜱᴜᴘᴀɴ"
 __HELP__ = """
-<blockquote><b>Bantuan Untuk Asupan
+<blockquote><b>⦪ Bantuan Untuk Asupan ⦫
 
-perintah : <code>{0}asupan</code>
-    mengirim video asupan random 
+Perintah : <code>{0}asupan</code>
+Ket : mengirim video asupan random 
 
-perintah : <code>{0}cewek</code>
-    mengirim photo cewe random
+Perintah : <code>{0}cewek</code>
+Ket : mengirim photo cewe random
 
-perintah : <code>{0}cowok</code>
-    mengirim photo cowo random</b></blockquote>
+Perintah : <code>{0}cowok</code>
+Ket : mengirim photo cowo random</b></blockquote>
     
 """
 
