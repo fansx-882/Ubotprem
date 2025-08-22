@@ -19,15 +19,15 @@ __HELP__ = """
 Perintah: <code>{0}kick</code> |<code>{0}ban</code> |<code>{0}mute</code> |<code>{0}etmin</code> |<code>{0}ceo</code> |<code>{0}demote</code> |<code>{0}unmute</code> |<code>{0}unban</code>
 
 Perintah: <code>{0}zombies</code>
-Ket: mengeluarkan akun terhapus dari group
+Ket: Kick akun terhapus dari group
 
 Perintah: <code>{0}lock</code> | <code>{0}unlock</code> | <code>{0}locks</code>
-    mengunci/membuka dan list izin group
+Ket : mengunci/membuka & list izin group
 
 Example:
-|<code>{0}lock msg</code> |<code>{0}lock media</code> |<code>{0}lock pin</code>
+|<code>{0}lock msg</code> |<code>{0}lock media</code>
 
-|<code>{0}lock polls</code> |<code>{0}lock info</code> |<code>{0}lock invite</code>
+|<code>{0}lock polls</code> |<code>{0}lock info</code>
 
 |<code>{0}lock webprev</code> |<code>{0}lock stickers</code></b></blockquote>
 """
