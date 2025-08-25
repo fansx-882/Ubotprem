@@ -9,15 +9,17 @@ hadir_list = []
 def get_hadir_list():
     return "\n".join([f"<blockquote><b>👤 {user['mention']} - {user['jam']}</blockquote></b>" for user in hadir_list])
 
-__MODULE__ = "ᴀʟ ǫᴜʀ'ᴀɴ"
+__MODULE__ = "Al Qur'an"
 __HELP__ = """
-<blockquote><b>Bantuan Untuk Al Qur'an
+<blockquote><b>⦪ Bantuan Untuk Al Qur'an ⦫
 
-perintah : <code>{0}alquran 1 2</code>
-    Untuk Mencari Ayat Al Qur'an
-
-Contoh: <code>{0}alquran 1 2</code>
-Maka hasilnya Surah Al-Fatihah Ayat 2</blockquote></b>
+<b>Perintah :</b> 
+ ᚗ <code>{0}alquran 1 2</code>
+ ᚗ untuk mencari ayat al quran 
+ 
+<b>Example :</b>
+ ᚗ <code>{0}alquran 1 2</code>
+ ᚗ maka hasil nya surah al-fatihah ayat 2</blockquote></b>
 """
 
 @PY.UBOT("absen")
