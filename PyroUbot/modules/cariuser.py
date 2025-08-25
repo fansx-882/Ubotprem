@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram import *
 from PyroUbot import PY
 
-__MODULE__ = "sᴇᴀʀᴄʜɪɴɢ ᴜsᴇʀɴᴀᴍᴇ"
+__MODULE__ = "searchname"
 __HELP__ = """
 <blockquote><b>Bantuan Untuk Searching username</b>
 
