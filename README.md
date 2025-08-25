@@ -3,19 +3,19 @@
 apt update && apt upgrade -y
 ```
 ```
-git clone https://github.com/fansx-882/Ubotprem.git
+git clone https://github.com/fansx-882/userbot236.git
 ```
 ```
 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
 ```
 ```
-cd Ubotprem && screen -S Ubotprem
+cd userbot236 && screen -S userbot236
 ```
 ```
 bash installnode.sh && apt install python3-venv
 ```
 ```
-python3 -m venv Ubotprem && source Ubotprem/bin/activate
+python3 -m venv userbot236 && source userbot236/bin/activate
 ```
 ```
 pip3 install -r requirements.txt
