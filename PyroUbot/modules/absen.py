@@ -12,14 +12,11 @@ def get_hadir_list():
 __MODULE__ = "Al Qur'an"
 __HELP__ = """
 <blockquote><b>⦪ Bantuan Untuk Al Qur'an ⦫
-<pre>
-<b>Perintah :</b> 
- ᚗ <code>{0}alquran 1 2</code>
- ᚗ untuk mencari ayat al quran 
- </pre>
-<b>Example :</b>
- ᚗ <code>{0}alquran 1 2</code>
- ᚗ maka hasil nya surah al-fatihah ayat 2</blockquote></b>
+
+<pre>ᚗ Perintah : <code>{0}alquran 1 2</code>
+       untuk mencari ayat al quran 
+ 
+ᚗ Example : <code>{0}alquran 1 2</code></blockquote></b></pre>
 """
 
 @PY.UBOT("absen")
