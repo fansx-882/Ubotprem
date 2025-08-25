@@ -13,8 +13,8 @@ __MODULE__ = "Al Qur'an"
 __HELP__ = """
 <b>⦪ Bantuan Untuk Al Qur'an ⦫</b>
 
-ᚗ Perintah : <code>{0}alquran 1 2</code>
-       untuk mencari ayat al quran 
+<i>ᚗ Perintah : <code>{0}alquran 1 2</code>
+       untuk mencari ayat al quran</i>
  
 ᚗ Example : <code>{0}alquran 1 2</code>
 """
