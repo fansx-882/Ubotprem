@@ -13,10 +13,10 @@ __MODULE__ = "Al Qur'an"
 __HELP__ = """
 <b>⦪ Bantuan Untuk Al Qur'an ⦫</b>
 
->ᚗ Perintah : <code>{0}alquran 1 2</code>
-       untuk mencari ayat al quran
+<pre>ᚗ Perintah : <code>{0}alquran 1 2</code>
+       untuk mencari ayat al quran</pre>
  
-ᚗ Example : <code>{0}alquran 1 2</code>
+<pre>ᚗ Example : <code>{0}alquran 1 2</code></pre>
 """
 
 @PY.UBOT("absen")
