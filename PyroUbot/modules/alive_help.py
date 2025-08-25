@@ -77,14 +77,14 @@ async def _(client, inline_query):
             psr = await EMO.PASIR(client)
             msg = f"""
 <blockquote>{bot.me.mention}
-    status: {status} 
-       {psr} expired_on: {exp} 
-        dc_id: {my.me.dc_id}
-        ping_dc: {ping} ms
-        peer_users: {users} users
-        peer_group: {group} group
-        start_uptime: {uptime}</blockquote>
-        <blockquote><b>USERBOT 5K/BULAN BY @Awlysxxx</b></blockquote>
+  Status: {status} 
+    {psr} Expired_on: {exp} 
+     Dc_id: {my.me.dc_id}
+     Ping_dc: {ping} ms
+     Peer_users: {users} users
+     Peer_group: {group} group
+     Start_uptime: {uptime}</blockquote>
+<blockquote><b>USERBOT 5K/BULAN BY FANSX</b></blockquote>
 """
             await client.answer_inline_query(
                 inline_query.id,
@@ -173,7 +173,7 @@ async def user_help(client, message):
 @PY.INLINE("^user_help")
 async def user_help_inline(client, inline_query):
     SH = await ubot.get_prefix(inline_query.from_user.id)
-    msg = f"<blockquote><b>✣ ᴍᴇɴᴜ ɪɴʟɪɴᴇ <a href=tg://user?id={inline_query.from_user.id}>{inline_query.from_user.first_name} {inline_query.from_user.last_name or ''}\nᴛᴏᴛᴀʟ ᴍᴏᴅᴜʟᴇs: {len(HELP_COMMANDS)}\nᴘʀᴇꜰɪx: {' '.join(SH)}\nᴍʏ ᴜsᴇʀʙᴏᴛ: <a href=t.me/Userbotfansx_bot>ғᴀɴsx ᴜsᴇʀʙᴏᴛ</b></blockquote>"
+    msg = f"<blockquote><b>✣ ᴍᴇɴᴜ ɪɴʟɪɴᴇ <a href=tg://user?id={inline_query.from_user.id}>{inline_query.from_user.first_name} {inline_query.from_user.last_name or ''}</a>\nᴛᴏᴛᴀʟ ᴍᴏᴅᴜʟᴇs: {len(HELP_COMMANDS)}\nᴘʀᴇꜰɪx: {' '.join(SH)}\nᴍʏ ᴜʙᴏᴛ: <a href=t.me/Userbotfansx_bot>ғᴀɴsx ᴜsᴇʀʙᴏᴛ</a></b></blockquote>"
     results = [InlineQueryResultArticle(
         title="Help Menu!",
         reply_markup=InlineKeyboardMarkup(paginate_modules(0, HELP_COMMANDS, "help")),
@@ -198,7 +198,8 @@ async def help_callback(client, callback_query):
     tutup_match = re.match(r"help_tutup\((.+?)\)", callback_query.data)
     back_match = re.match(r"help_back", callback_query.data)
     SH = await ubot.get_prefix(callback_query.from_user.id)
-    top_text = f"<blockquote><b>✣ ᴍᴇɴᴜ ɪɴʟɪɴᴇ <a href=tg://user?id={inline_query.from_user.id}>{inline_query.from_user.first_name} {inline_query.from_user.last_name or ''}\nᴛᴏᴛᴀʟ ᴍᴏᴅᴜʟᴇs: {len(HELP_COMMANDS)}\nᴘʀᴇꜰɪx: {' '.join(SH)}\nᴍʏ ᴜsᴇʀʙᴏᴛ: <a href=t.me/Userbotfansx_bot>ғᴀɴsx ᴜsᴇʀʙᴏᴛ</b></blockquote>"
+    top_text = f"<blockquote><b>✣ ᴍᴇɴᴜ ɪɴʟɪɴᴇ <a href=tg://user?id={callback_query.from_user.id}>{callback_query.from_user.first_name} {callback_query.from_user.last_name or ''}</a>\nᴛᴏᴛᴀʟ ᴍᴏᴅᴜʟᴇs: {len(HELP_COMMANDS)}\nᴘʀᴇꜰɪx: {' '.join(SH)}\nᴍʏ ᴜʙᴏᴛ: <a href=t.me/Userbotfansx_bot>ғᴀɴsx ᴜsᴇʀʙᴏᴛ</a></b></blockquote>"
+
     if mod_match:
         module = (mod_match.group(1)).replace(" ", "_")
         text = HELP_COMMANDS[module].__HELP__.format(next((p) for p in SH))
